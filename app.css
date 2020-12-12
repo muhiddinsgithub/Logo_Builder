@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: blue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+
+input[name="brandname"] {
+  padding: 5px;
+  font-size: 0.8em;
+  border: 1px solid lightgray;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+}
